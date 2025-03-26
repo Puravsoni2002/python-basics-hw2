@@ -22,3 +22,4 @@ Thumbs.db
 # Logs and metadata
 *.log
 
+private_tests/
