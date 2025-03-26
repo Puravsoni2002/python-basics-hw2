@@ -1,0 +1,13 @@
+autograding:
+  tests:
+    - name: Public Tests
+      setup: pip install pytest
+      run: pytest public_tests/
+      points: 5
+      visibility: visible
+
+    - name: Private Tests
+      setup: pip install pytest
+      run: pytest private_tests/
+      points: 5
+      visibility: hidden
